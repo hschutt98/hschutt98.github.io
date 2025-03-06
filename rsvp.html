@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--REQUIRED: head semantic element, 2-24-25-->
+<head>
+  <meta charset="utf-8">
+  <!--REQUIRED: viewport metadata, 2-17-25-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--REQUIRED: title metadata, 2-17-25-->
+    <Title>Wyman Wedding 2026 :: RSVP</title> 
+  <!--REQUIRED: description metadata, 2-24-25-->
+    <meta name="description" content="RSVP for the wedding and select meal options">
+  <!--REQUIRED: keywords metadata, 2-24-25-->
+    <meta name="keywords" content="Danyelle and Collin, wedding, wedding website, wedding registry, wedding info, RSVP, meal">
+  <!--REQUIRED: author metadata, 2-8-25-->
+    <meta name="author" content="Hailley Schutt">
+<link href="cdwedding.css" rel="stylesheet">
+</head>
+
+<!--REQUIRED: body semantic element, 3-3-25-->
+<body>
+
+<header>
+   <div id="header"> 
+<!--REQUIRED: image 1 of 5, 2-24-25-->
+    <img src="graphics/treesgreen15.png" alt="pine trees silhouette">
+    <h1><a href="index.html">WyKnot</a></h1>
+  </div>
+<!--REQUIRED: nav semantic element, 2-8-25-->
+  <nav>
+<!--REQUIRED: ul list element, 2-8-25-->
+    <ul> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li> 
+      <li><a href="travel.html">Travel</a></li>
+      <li><a href="story.html">Our Story</a></li>
+      <li><a href="registry.html">Registry</a></li>
+      <li><a href="rsvp.html">RSVP</a></li>
+  </ul>
+</nav>
+</header>
+
+<!--REQUIRED: main semantic element, 3-3-25-->
+<main class="rmain">
+  <h2>RSVP</h2>
+  <p class="prsvp">Please choose your name from the list and enter the password to continue</p>
+<!--REQUIRED: form element, 3-3-25-->
+  <form class="form1" method="post" action="rsvp2.html">
+    <select size="1" name="guestname" id="guestname" required>
+<!--REQUIRED: select option element, 3-3-25-->
+	<option value="">Select your name</option>
+        <option value="Hailley">Hailley</option>
+	<option value="Sarah">Sarah</option>
+	<option value="Guest">Guest</option>
+    </select>
+    <label for="password">Password:
+<!--REQUIRED: input element 1 of 3, 3-3-25-->
+      <input type="password" name="password" id="password">
+    </label>
+<!--REQUIRED: submit button, 3-3-25-->
+    <input type="submit" value="Continue" id="continue"> 
+  </form> 
+</main>
+<!--REQUIRED: footer semantic element, 2-24-25-->
+<footer>  
+    <div class="contactsection">
+      <img src="graphics/needhelp.png" alt="need help?">
+      <div class="contactinfo">
+        <p class="contactme">Contact Me!</p>
+	<p> Aurora K.</p>
+	<p>(xxx) xxx-xxxx</p>
+	<p>email@email.com</p>
+      </div>
+    </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="details.html">Details</a> 
+    <a href="travel.html">Travel</a>
+    <a href="story.html">Our Story</a>
+    <a href="registry">Registry</a>
+    <a href="rsvp.html">RSVP</a>
+  </nav>
+  </footer>
+
+</body>
+</html>

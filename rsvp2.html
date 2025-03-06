@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--REQUIRED: head semantic element, 2-24-25-->
+<head>
+  <meta charset="utf-8">
+  <!--REQUIRED: viewport metadata, 2-17-25-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--REQUIRED: title metadata, 2-17-25-->
+    <Title>Wyman Wedding 2026 :: RSVP2</title> 
+  <!--REQUIRED: description metadata, 2-24-25-->
+    <meta name="description" content="RSVP for the wedding,select meal options, and write a message to the Bride and Groom">
+  <!--REQUIRED: keywords metadata, 2-24-25-->
+    <meta name="keywords" content="Danyelle and Collin, wedding, wedding website, wedding registry, wedding info, RSVP, meal">
+  <!--REQUIRED: author metadata, 2-8-25-->
+    <meta name="author" content="Hailley Schutt">
+<link href="cdwedding.css" rel="stylesheet">
+</head>
+
+<!--REQUIRED: body semantic element, 3-3-25-->
+<body>
+
+<header>
+   <div id="header"> 
+<!--REQUIRED: image 1 of 5, 2-24-25-->
+    <img src="graphics/treesgreen15.png" alt="pine trees silhouette">
+    <h1><a href="index.html">WyKnot</a></h1>
+  </div>
+<!--REQUIRED: nav semantic element, 2-8-25-->
+  <nav>
+    <ul> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li> 
+      <li><a href="travel.html">Travel</a></li>
+      <li><a href="story.html">Our Story</a></li>
+      <li><a href="registry.html">Registry</a></li>
+      <li><a href="rsvp.html">RSVP</a></li>
+  </ul>
+</nav>
+</header>
+
+<!--REQUIRED: main semantic element, 3-3-25-->
+<main class="rmain">
+  <h2>RSVP</h2>
+  <div class="prsvp2">
+    <p>Fill out the form below to confirm or deny your attendance.</p>
+    <p>We would love if you shared a quick message with us as well!</p>
+  </div>
+  <p class="req">Required fields are marked with an asterisk *</p>
+<!--REQUIRED: form element, 3-3-25-->
+  <form class="form2" method="post" action="rsvpthanks.html">
+    <div class="pineborder"> 
+<!--REQUIRED: image 5 of 5, 3-3-25-->
+	<img src="graphics/pineborder_creamflipped.png" alt="pine needles and pinecone border">
+	<img src="graphics/pineborder_cream.png" alt="pine needles and pinecone border">
+    </div> 
+<!--REQUIRED: fieldset element 3-3-25-->
+    <fieldset>
+<!--REQUIRED: legend element 3-4-25--> 
+    <legend>Contact Information</legend>
+      <label for="name">* Name:
+<!--REQUIRED: input element 2 of 3, 3-3-25-->
+        <input type="text" name="name" id="name" required>
+      </label>
+      <label for="email">* E-mail:
+<!--REQUIRED: input element 3 of 3, 3-3-25-->
+        <input type="email" name="email" id="email" required>
+      </label>
+      <label for="phone">* Phone Number:
+<!--REQUIRED: required, 3-3-25-->
+        <input type="tel" name="phone" id="phone" required>
+      </label>
+    </fieldset>
+    <p class="prsvp3attend">*Will you be attending?</p>
+      <div class="attend">
+      <label  for="attendyes"> 
+<!--REQUIRED: radio element, 3-3-25-->
+        <input type="radio" name="attend" id="attendyes" value="yes">Accepts with pleasure
+      </label>
+      <label for="attendno">
+	<input type="radio" name="attend" id="attendno" value="yes">Declines with regret
+      </label>
+      </div>
+    <p class="prsvp3">*Please choose one of the following meal options</p>
+    <div class="meal">
+      <label for="mealb"><input type="radio" name="meal" id="mealb" value="yes">Beef</label>
+      <label for="mealc"><input type="radio" name="meal" id="mealc" value="yes">Chicken</label>
+      <label for="mealv"><input type="radio" name="meal" id="mealv" value="yes">Vegetarian</label>
+	</div>
+    <div class="message">
+      <p>Message to the Bride and Groom:</p>
+      <textarea name="message" id="message"></textarea>
+    </div>
+    <div class="buttons"> 
+    <input type="submit" value="Continue" id="continue2">
+<!--REQUIRED: reset element, 3-3-25-->
+    <input type="reset" id="reset">
+    </div>
+    <div class="pineborder2"> 
+	<img src="graphics/pineborder_creamflipped.png" alt="pine needles and pinecone border">
+	<img src="graphics/pineborder_cream.png" alt="pine needles and pinecone border">
+    </div>
+  </form>
+</main>
+
+<!--REQUIRED: footer semantic element, 2-24-25-->
+<footer>  
+    <div class="contactsection">
+      <img src="graphics/needhelp.png" alt="need help?">
+      <div class="contactinfo">
+        <p class="contactme">Contact Me!</p>
+	<p> Aurora K.</p>
+	<p>(xxx) xxx-xxxx</p>
+	<p>email@email.com</p>
+      </div>
+    </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="details.html">Details</a> 
+    <a href="travel.html">Travel</a>
+    <a href="story.html">Our Story</a>
+    <a href="registry">Registry</a>
+    <a href="rsvp.html">RSVP</a>
+  </nav>
+  </footer>
+
+</body>
+</html>
